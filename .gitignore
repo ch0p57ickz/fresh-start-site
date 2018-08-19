@@ -72,5 +72,5 @@ typings/
 # Serverless directories
 .serverless
 
-dist/static
-dist/main.js
+# Webpack generated files
+/dist
