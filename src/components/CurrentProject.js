@@ -49,6 +49,14 @@ const CurrentProject = ({ mobile }) => (
           </Label>
         </Grid.Column>
       </Grid.Row>
+      <Grid.Row centered>
+        <Grid.Column width={8}>
+        <Image publicId="meNiantic_r7vpus.png" >
+          </Image>
+        <Label color='red' pointing='above' icon="play" content="Hear why Niantic is a great place to work from me and my fellow coworkers!">
+      </Label>
+        </Grid.Column>
+      </Grid.Row>
     </Grid>
   </Segment>
 )

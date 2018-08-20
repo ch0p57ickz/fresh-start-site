@@ -27,8 +27,7 @@ const PastProjects = ({ mobile }) => (
     <Container text>
 
       <Segment>
-        <Label as='a' color='blue' ribbon>
-          Video Game Credits
+        <Label as='a' color='blue' ribbon icon="xbox" content="Video Game Credits">
         </Label>
         <Table celled>
           <Table.Body>
@@ -49,8 +48,7 @@ const PastProjects = ({ mobile }) => (
       </Segment>
 
       <Segment>
-        <Label as='a' color='red' ribbon>
-          Microsoft Ship-it Awards
+        <Label as='a' color='red' ribbon icon="trophy" content="Microsoft Ship-it Awards">
         </Label>
         <span>Awarded for contribution towards key software releases at Microsoft</span>
         <Table celled>
@@ -79,7 +77,7 @@ const PastProjects = ({ mobile }) => (
         MSN.com
         </Header>
       <Header as='h2' style={{ fontSize: '1em' }}>
-        Senior Software Engineer, Personalization Team (2014-2017)
+        Senior Software Engineer, Microsoft, Windows / Universal Store Personalization Team (2014-2017)
         </Header>
       <Grid>
         <Grid.Row>
@@ -133,7 +131,7 @@ const PastProjects = ({ mobile }) => (
         Microsoft Studios
         </Header>
       <Header as='h2' style={{ fontSize: '1em' }}>
-        Software Engineer in Test II, Game Test Organization (2013-2014)
+        Software Engineer in Test II, Microsoft, Game Test Organization (2013-2014)
         </Header>
       <Grid>
         <Grid.Row>
@@ -174,6 +172,102 @@ const PastProjects = ({ mobile }) => (
             <Label.Detail>C#</Label.Detail>
         <Label.Detail>Azure Cloud Services</Label.Detail>
         <Label.Detail>Cloud Load Test</Label.Detail>
+      </Label>
+
+      <Header as='h3' style={{ fontSize: '2em' }}>
+        Galactic Reign
+        </Header>
+      <Header as='h2' style={{ fontSize: '1em' }}>
+        Software Engineer in Test, Microsoft, Game Test Organization (2012-2013)
+        </Header>
+      <Grid>
+        <Grid.Row>
+          <Grid.Column width={10}>
+            <List>
+              <List.Item>
+                <Icon name="bug" />
+                <List.Content>
+                  <List.Description>Led the efforts to test the Cloud-based GPU rendered game at scale</List.Description>
+                </List.Content>
+              </List.Item>
+              <List.Item>
+                <Icon name="clock" />
+                <List.Content>
+                  <List.Description>Release, monitoring, operations and deployment support for the game</List.Description>
+                </List.Content>
+              </List.Item>
+              <List.Item>
+                <Icon name="wrench" />
+                <List.Content>
+                  <List.Description>First-tier operations and support for the title, post-launch</List.Description>
+                </List.Content>
+              </List.Item>
+            </List>
+
+          </Grid.Column>
+          <Grid.Column width={6}>
+            <Image publicId="opi01_dkc0r6.jpg" >
+            </Image>
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
+      <Label>
+        Years <Label.Detail>1</Label.Detail>
+      </Label>
+      <Label color="green">
+        Server
+            <Label.Detail>C#</Label.Detail>
+        <Label.Detail>Azure Cloud Services</Label.Detail>
+        <Label.Detail>Azure GPU</Label.Detail>
+        <Label.Detail>Cloud Load Test</Label.Detail>
+      </Label>
+
+      <Header as='h3' style={{ fontSize: '2em' }}>
+        High Performance Computing
+        </Header>
+      <Header as='h2' style={{ fontSize: '1em' }}>
+        Software Engineer in Test, Microsoft, HPC (2010-2012)
+        </Header>
+      <Grid>
+        <Grid.Row>
+          <Grid.Column width={10}>
+            <List>
+              <List.Item>
+                <Icon name="fork" />
+                <List.Content>
+                  <List.Description>Tested Job Scheduling system of our High Performance Computing platform</List.Description>
+                </List.Content>
+              </List.Item>
+              <List.Item>
+                <Icon name="cogs" />
+                <List.Content>
+                  <List.Description>Automated deployment of test tools to Azure Cloud, released externally in a developer toolkip</List.Description>
+                </List.Content>
+              </List.Item>
+              <List.Item>
+                <Icon name="coffee" />
+                <List.Content>
+                  <List.Description>Tested Java interoperability for jobs scheduled over SOAP/WSDL as an intern project</List.Description>
+                </List.Content>
+              </List.Item>
+            </List>
+
+          </Grid.Column>
+          <Grid.Column width={6}>
+          <Image publicId="6648.hpc2008_09C85B6C_i8a0bs.jpg" >
+            </Image>
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
+      <Label>
+        Years <Label.Detail>2</Label.Detail>
+      </Label>
+      <Label color="green">
+        Server
+            <Label.Detail>C#</Label.Detail>
+            <Label.Detail>Java</Label.Detail>
+        <Label.Detail>Azure Cloud Services</Label.Detail>
+        <Label.Detail>High Performance Computing</Label.Detail>
       </Label>
     </Container>
   </Segment>
