@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import {
   Divider,
   Grid,
@@ -15,12 +16,14 @@ const CurrentProject = ({ mobile }) => (
       className='header'
       horizontal
       style={{ margin: '3em 0em', textTransform: 'uppercase' }}>
-      <a href='#'>Current Projects</a>
+      <a name="currentProjects">Current Projects</a>
     </Divider>
     <Grid container stackable verticalAlign='middle'>
       <Grid.Row>
         <Grid.Column floated='left' width={6}>
-          <Image publicId="30530462_1412349548911599_6584595369152217088_o_ssny9x.jpg" />
+          <Segment style={{width: mobile ? '50%' : '100%', marginLeft: 'auto', marginRight: mobile ? 'auto' : 0}}>
+          <Image publicId="30530462_1412349548911599_6584595369152217088_o_ssny9x.jpg" style={{width: '100%'}}/>
+          </Segment>
         </Grid.Column>
         <Grid.Column width={10}>
           <Header as='h3' style={{ fontSize: '2em' }}>
@@ -50,15 +53,24 @@ const CurrentProject = ({ mobile }) => (
         </Grid.Column>
       </Grid.Row>
       <Grid.Row centered>
-        <Grid.Column width={8}>
-        <Image publicId="meNiantic_r7vpus.png" >
+        <Grid.Column width={8} style={{textAlign: 'center'}}>
+        <Segment>
+        <a href='https://www.youtube.com/watch?v=lVnwYkcscmI'>
+        <Image publicId="meNiantic_r7vpus.png" style={{ width: '100%'}}>
           </Image>
-        <Label color='red' pointing='above' icon="play" content="Hear why Niantic is a great place to work from me and my fellow coworkers!">
+          </a>
+          </Segment>
+        <Label color='red' pointing='above' icon="play" content="Hear why Niantic is a great place to work from me and my fellow coworkers!" 
+          as='a' href='https://www.youtube.com/watch?v=lVnwYkcscmI' >
       </Label>
         </Grid.Column>
       </Grid.Row>
     </Grid>
   </Segment>
 )
+
+CurrentProject.propTypes = {
+  mobile: PropTypes.bool,
+}
 
 export default CurrentProject;

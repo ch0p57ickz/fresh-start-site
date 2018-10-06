@@ -1,6 +1,5 @@
 import React from 'react'
 import {
-  Button,
   Container,
   Divider,
   Grid,
@@ -21,56 +20,52 @@ const PastProjects = ({ mobile }) => (
       horizontal
       style={{ margin: '3em 0em', textTransform: 'uppercase' }}
     >
-      <a href='#'>Past Projects</a>
+      <a name='pastProjects'>Past Projects</a>
     </Divider>
 
     <Container text>
 
       <Segment>
-        <Label as='a' color='blue' ribbon icon="xbox" content="Video Game Credits">
+        <Label color='blue' ribbon icon="xbox" content="Video Game Credits">
         </Label>
-        <Table celled>
-          <Table.Body>
-          <Table.Row>
-            <Table.Cell textAlign="center">Galactic Reign <br/>(Windows 8 / Windows Phone 7)</Table.Cell>
-            <Table.Cell textAlign="center">Microsoft Bingo <br/>(Windows 8 / Windows Phone 8)</Table.Cell>
-          </Table.Row>
-          <Table.Row>
-            <Table.Cell textAlign="center">World Series of Poker <br/>(Xbox 360 Arcade)</Table.Cell>
-            <Table.Cell textAlign="center">Ascend: Hand of Kul <br/>(Xbox 360 Arcade)</Table.Cell>
-          </Table.Row>
-          <Table.Row>
-            <Table.Cell textAlign="center">Launchworks titles <br/>(Xbox One)</Table.Cell>
-            <Table.Cell textAlign="center"></Table.Cell>
-          </Table.Row>
-          </Table.Body>
-        </Table>
+        <Segment.Group>
+          <Segment.Group horizontal>
+            <Segment textAlign="center" style={{ width: '5em' }}>Galactic Reign <br />(Windows 8 / Windows Phone 7)</Segment>
+            <Segment textAlign="center" style={{ width: '5em' }}>Microsoft Bingo <br />(Windows 8 / Windows Phone 8)</Segment>
+          </Segment.Group>
+          <Segment.Group horizontal>
+            <Segment textAlign="center" style={{ width: '5em' }}>World Series of Poker <br />(Xbox 360 Arcade)</Segment>
+            <Segment textAlign="center" style={{ width: '5em' }}>Ascend: Hand of Kul <br />(Xbox 360 Arcade)</Segment>
+          </Segment.Group>
+          <Segment.Group horizontal>
+            <Segment textAlign="center" style={{ width: '5em' }}>Launchworks titles <br />(Xbox One)</Segment>
+            <Segment textAlign="center" style={{ width: '5em' }}></Segment>
+          </Segment.Group>
+        </Segment.Group>
       </Segment>
 
       <Segment>
-        <Label as='a' color='red' ribbon icon="trophy" content="Microsoft Ship-it Awards">
+        <Label color='red' ribbon icon="trophy" content="Microsoft Ship-it Awards">
         </Label>
         <span>Awarded for contribution towards key software releases at Microsoft</span>
-        <Table celled>
-          <Table.Body>
-          <Table.Row>
-            <Table.Cell textAlign="center">HPC Pack 2008 R2</Table.Cell>
-            <Table.Cell textAlign="center">Launchworks</Table.Cell>
-          </Table.Row>
-          <Table.Row>
-            <Table.Cell textAlign="center">HPC Pack 2012</Table.Cell>
-            <Table.Cell textAlign="center">Age of Empires: Castles</Table.Cell>
-          </Table.Row>
-          <Table.Row>
-            <Table.Cell textAlign="center">Galactic Reign</Table.Cell>
-            <Table.Cell textAlign="center">Windows 10</Table.Cell>
-          </Table.Row>
-          <Table.Row>
-            <Table.Cell textAlign="center">Xbox One</Table.Cell>
-            <Table.Cell textAlign="center"></Table.Cell>
-          </Table.Row>
-          </Table.Body>
-        </Table>
+        <Segment.Group>
+          <Segment.Group horizontal>
+            <Segment textAlign="center" style={{ width: '5em' }}>HPC Pack 2008 R2</Segment>
+            <Segment textAlign="center" style={{ width: '5em' }}>Launchworks</Segment>
+          </Segment.Group>
+          <Segment.Group horizontal>
+            <Segment textAlign="center" style={{ width: '5em' }}>HPC Pack 2012</Segment>
+            <Segment textAlign="center" style={{ width: '5em' }}>Age of Empires: Castles</Segment>
+          </Segment.Group>
+          <Segment.Group horizontal>
+            <Segment textAlign="center" style={{ width: '5em' }}>Galactic Reign</Segment>
+            <Segment textAlign="center" style={{ width: '5em' }}>Windows 10</Segment>
+          </Segment.Group>
+          <Segment.Group horizontal>
+            <Segment textAlign="center" style={{ width: '5em' }}>Xbox One</Segment>
+            <Segment textAlign="center" style={{width: '5em'}}></Segment>
+          </Segment.Group>
+        </Segment.Group>
       </Segment>
 
       <Header as='h3' style={{ fontSize: '2em' }}>
@@ -254,7 +249,7 @@ const PastProjects = ({ mobile }) => (
 
           </Grid.Column>
           <Grid.Column width={6}>
-          <Image publicId="6648.hpc2008_09C85B6C_i8a0bs.jpg" >
+            <Image publicId="6648.hpc2008_09C85B6C_i8a0bs.jpg" >
             </Image>
           </Grid.Column>
         </Grid.Row>
@@ -265,12 +260,12 @@ const PastProjects = ({ mobile }) => (
       <Label color="green">
         Server
             <Label.Detail>C#</Label.Detail>
-            <Label.Detail>Java</Label.Detail>
+        <Label.Detail>Java</Label.Detail>
         <Label.Detail>Azure Cloud Services</Label.Detail>
         <Label.Detail>High Performance Computing</Label.Detail>
       </Label>
     </Container>
-  </Segment>
+  </Segment >
 )
 
 export default PastProjects

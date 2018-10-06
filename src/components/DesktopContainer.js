@@ -3,12 +3,17 @@ import React, { Component } from 'react'
 import {
   Button,
   Container,
+  Icon,
   Menu,
   Responsive,
   Segment,
   Visibility,
 } from 'semantic-ui-react'
 import HomepageHeading from './HomepageHeading'
+import CurrentProject from './CurrentProject'
+import Summary from './Summary'
+import PastProjects from './PastProjects'
+import Footer from './Footer'
 
 class DesktopContainer extends Component {
   state = {}
@@ -37,18 +42,23 @@ class DesktopContainer extends Component {
               size='large'
             >
               <Container>
-                <Menu.Item as='a' active>
+                <Menu.Item as='a' href="/" active>
                   Home
                 </Menu.Item>
-                <Menu.Item as='a'>Work</Menu.Item>
-                <Menu.Item as='a'>Company</Menu.Item>
-                <Menu.Item as='a'>Careers</Menu.Item>
+                <Menu.Item as='a' href="#currentProjects">Current Projects</Menu.Item>
+                <Menu.Item as='a' href="#pastProjects">Past Projects</Menu.Item>
                 <Menu.Item position='right'>
-                  <Button as='a' inverted={!fixed}>
-                    Log in
+                  <Button color='facebook' as='a' href='https://facebook.com/ch0p57ickz'>
+                    <Icon name='facebook' /> Facebook
                   </Button>
-                  <Button as='a' inverted={!fixed} primary={fixed} style={{ marginLeft: '0.5em' }}>
-                    Sign Up
+                  <Button color='linkedin' style={{ marginLeft: '0.5em' }} as='a' href="https://www.linkedin.com/in/james-prompanya-a0241913">
+                    <Icon name='linkedin' /> LinkedIn
+                  </Button>
+                  <Button color='twitter' style={{ marginLeft: '0.5em' }} as='a' href='https://twitter.com/jamespromp'>
+                    <Icon name='twitter' /> Twitter
+                  </Button>
+                  <Button style={{ marginLeft: '0.5em' }} as='a' href='https://github.com/ch0p57ickz'>
+                    <Icon name='github' /> GitHub
                   </Button>
                 </Menu.Item>
               </Container>
@@ -56,7 +66,10 @@ class DesktopContainer extends Component {
             <HomepageHeading />
           </Segment>
         </Visibility>
-
+    <CurrentProject />
+    <Summary />
+    <PastProjects />
+    <Footer />
         {children}
       </Responsive>
     )
