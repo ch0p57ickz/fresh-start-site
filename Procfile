@@ -1,1 +1,1 @@
-web: yarn install --production=false && yarn pack && yarn startServer
+web: yarn pack && yarn startServer
