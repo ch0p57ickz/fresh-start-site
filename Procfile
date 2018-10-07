@@ -1,1 +1,1 @@
-web: npm run pack
+web: yarn install --production=false && yarn pack && yarn startServer
