@@ -40,7 +40,7 @@ const HomepageHeading = ({ mobile }) => (
             }}
           />
           <Segment secondary padded>
-            <Image publicId="niantic_logo_edited_gxkhee.png" />
+            <Image publicId="niantic_logo_edited_gxkhee.png" style={{width:'100%'}} />
           </Segment>
         </Container>
       </Grid.Column>
