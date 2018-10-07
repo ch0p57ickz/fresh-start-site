@@ -1,1 +1,1 @@
-web: yarn pack && yarn startServer
+web: npm run pack && yarn startServer
