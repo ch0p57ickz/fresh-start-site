@@ -250,6 +250,7 @@ const PastProjects = ({ mobile }) => (
           </Grid.Column>
           <Grid.Column width={6}>
             <Image publicId="6648.hpc2008_09C85B6C_i8a0bs.jpg" >
+              <Transformation effect="trim:10" />
             </Image>
           </Grid.Column>
         </Grid.Row>
