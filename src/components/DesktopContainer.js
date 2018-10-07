@@ -29,7 +29,7 @@ class DesktopContainer extends Component {
     const { children } = this.props
     const { fixed, width }  = this.state
     const menuWidth = 1080
-    const shortIcons = width < menuWidth
+    const shortIcons = width ? width < menuWidth : true
 
     return (
       <Responsive minWidth={Responsive.onlyTablet.minWidth}>
