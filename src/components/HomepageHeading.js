@@ -25,15 +25,18 @@ const HomepageHeading = ({ mobile }) => (
           />
           <Header
             as='h2'
-            content='Senior Software Engineer - Server Infrastructure'
+            //content='Technical Lead / Manager Senior Software Engineer - Server Infrastructure'
             style={{
               fontSize: mobile ? '1.5em' : '1.7em',
               fontWeight: 'normal',
             }}
-          />
+          >
+            Technical Lead / Manager <br />
+            Senior Software Engineer - Server Infrastructure
+          </Header>
           <Header
             as='h4'
-            content='San Jose, CA'
+            content='Sunnyvale, CA'
             style={{
               fontSize: mobile ? '1.5em' : '1.7em',
               fontWeight: 'normal',
