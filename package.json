@@ -41,6 +41,9 @@
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.5"
   },
+  "resolutions": {
+    "fomantic-ui/**/diff": "4.0.1"
+  },
   "name": "fresh-start",
   "version": "1.0.0",
   "private": true,
