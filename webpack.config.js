@@ -7,6 +7,11 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   inject: 'body'
 })
 
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const CopyWebpackPluginConfig = new CopyWebpackPlugin([
+  { from: 'src/keybase.txt', to: 'keybase.txt' }
+])
+
 module.exports = {
   mode: "development",
   entry: './src/index.js',
@@ -49,7 +54,7 @@ module.exports = {
       }
     ]
   },
-  plugins: [HtmlWebpackPluginConfig],
+  plugins: [HtmlWebpackPluginConfig, CopyWebpackPluginConfig],
   resolve: {
     extensions: ['.js']
   }
