@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ch0p57ickz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jamesprompanya.com
+  * I am ch0p57ickz (https://keybase.io/ch0p57ickz) on keybase.
+  * I have a public key ASDOAsQs6wntFs7H9tf1gMhsCNFwA33xkECB5MCMCiyxOQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ce02c42ceb09ed16cec7f6d7f580c86c08d170037df1904081e4c08c0a2cb1390a",
+      "host": "keybase.io",
+      "kid": "0120ce02c42ceb09ed16cec7f6d7f580c86c08d170037df1904081e4c08c0a2cb1390a",
+      "uid": "0b07f2197e18743f7532701002f20419",
+      "username": "ch0p57ickz"
+    },
+    "merkle_root": {
+      "ctime": 1576479202,
+      "hash": "186bbbc975de97869fd162808e1a7f57f3293c507145ab8352c47121e055eb143131e675d1205c52a08b28f7912f4c019b14ef0a99ef4207d0c3319f5789e691",
+      "hash_meta": "8edece9006cc25169580140b017b24bc50df5936e18023ce0af1943daea3c358",
+      "seqno": 13629610
+    },
+    "service": {
+      "entropy": "PPGRkSIQRS4IaI+pxPCFFB/K",
+      "hostname": "jamesprompanya.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.1.1"
+  },
+  "ctime": 1576479216,
+  "expire_in": 504576000,
+  "prev": "7811b5002f4d80665502ca8fe95239c4dca5811c857b8c80a7e60566cbb0059c",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgzgLELOsJ7RbOx/bX9YDIbAjRcAN98ZBAgeTAjAossTkKp3BheWxvYWTESpcCCcQgeBG1AC9NgGZVAsqP6VI5xNylgRyFe4yAp+YFZsuwBZzEINA4tPbDi692yb1i4YumiVwJwUTWd8HQVYRUATASdf2EAgHCo3NpZ8RAgouxUeWtL1cUhOHixKaHPcAvDiIxZCgxyog8luSCBPNnl9kGInunUfRkAn6axPnV6YomY6mgtHfOow6YTsrTCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPrkxDi5iRXgxY/NeeVj9AWBx5N5SD84AnfUePUsSKUno3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ch0p57ickz
+
+==================================================================
