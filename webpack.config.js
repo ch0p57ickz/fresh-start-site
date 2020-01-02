@@ -9,7 +9,8 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const CopyWebpackPluginConfig = new CopyWebpackPlugin([
-  { from: 'src/keybase.txt', to: 'keybase.txt' }
+  { from: 'src/keybase.txt', to: 'keybase.txt' },
+  { from: 'src/acme-challenge.txt', to: '.well-known/acme-challenge/KWj_d_LadcmGqGzQHb8r7Odo154-IdNOUIsLiYk7nfw', toType: 'file' }
 ])
 
 module.exports = {
