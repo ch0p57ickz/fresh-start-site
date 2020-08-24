@@ -32,7 +32,7 @@ const HomepageHeading = ({ mobile }) => (
             }}
           >
             Technical Lead / Manager <br />
-            Senior Software Engineer - Server Infrastructure
+            Staff Software Engineer - Server Infrastructure
           </Header>
           <Header
             as='h4'
