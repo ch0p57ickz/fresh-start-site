@@ -30,14 +30,14 @@ const CurrentProject = ({ mobile }) => (
             Pokémon GO - Android, iOS (2017 - Present)
           </Header>
           <p style={{ fontSize: '1.33em' }}>
-            Leading a small team of server engineers the bay area, focused currently on server performance and stability
+            Leading a team of server engineers the bay area, focused currently on server performance and stability
             and soon, new gameplay functionality.
           </p>
           <p style={{ fontSize: '1.33em' }}>
             Intentionally vague due to the game's profilic fan-base and popularity. Contact me for more information about past and present projects I've worked on with Niantic and Pokémon GO!
           </p>
           <Label>
-            Years <Label.Detail>2</Label.Detail>
+            Years <Label.Detail>3</Label.Detail>
           </Label>
           <Label color="green">
             Server 

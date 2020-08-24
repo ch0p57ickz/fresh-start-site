@@ -25,7 +25,7 @@ const HomepageHeading = ({ mobile }) => (
           />
           <Header
             as='h2'
-            //content='Technical Lead / Manager Senior Software Engineer - Server Infrastructure'
+            //content='Technical Lead / Manager Staff Software Engineer - Server Infrastructure'
             style={{
               fontSize: mobile ? '1.5em' : '1.7em',
               fontWeight: 'normal',
